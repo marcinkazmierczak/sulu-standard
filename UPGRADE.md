@@ -1,5 +1,9 @@
 # Upgrade
 
+## Removed whereNot from ListBuilder 
+Remove the method whereNot from the ListBuilder. The where method accepts now as third parameter a comparator which is
+by default the equals operator.
+
 ## 1.0.0-RC3
 
 ### Document Manager
@@ -84,7 +88,6 @@ Service `sulu_contact.contact_repository` changed to `sulu.repository.contact`.
 | `Sulu/Bundle/ContactBundle/Entity/Contact:addCategorie`                   | `Sulu/Bundle/ContactBundle/Entity/Contact:addCategory`                    |
 | `Sulu/Bundle/ContactBundle/Entity/Contact:removeCategorie`                | `Sulu/Bundle/ContactBundle/Entity/Contact:removeCategory`                 |
 
-## 1.0.0-RC2
 ## 1.0.0-RC2
 
 ### Twig-Extensions
