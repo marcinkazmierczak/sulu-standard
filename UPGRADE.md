@@ -1,6 +1,9 @@
 # Upgrade
 
-## Removed whereNot from ListBuilder 
+## ??
+
+## Removed whereNot from ListBuilder
+
 Remove the method whereNot from the ListBuilder. The where method accepts now as third parameter a comparator which is
 by default the equals operator.
 
