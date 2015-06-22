@@ -76,3 +76,11 @@ massive_build:
                 search_index:
                 phpcr_migrations: ~
 
+# SULU Resource Configuration
+sulu_resource:
+    aliases:
+        contacts:
+            fields: "/admin/api/contacts/fields"
+            class: "contact"
+            features:
+                - "filters"
