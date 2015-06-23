@@ -2,8 +2,8 @@
 
 ## Renamed fields from ListBuilder
  
-Renamed the ```fields``` property and functions from the ListBuilder to ```selectFields```.
-Added fields property to store all the available fields (these are not used for to build the query)
+Renamed the `fields` property and functions from the ListBuilder to `selectFields`.
+Added `fieldDescriptors` property to store all the available fields (these are not used for to build the query)!
 
 ## Removed whereNot from ListBuilder
 
